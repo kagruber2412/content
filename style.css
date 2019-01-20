@@ -7,3 +7,119 @@ html {
     font-family: 'Open Sans',sans-serif;
     background: white;
 }
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 10px 1.5vw 10px 1.5vw;
+    max-width: 100%;
+    font-size: 15px;
+    background-color: white;
+}
+
+.navbar .navbar-logo {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.navbar .navbar-logo a {
+    text-transform: capitalize;
+    font-family: "Pacifico",cursive;
+    font-size: 20px;
+}
+
+.navbar .navbar-links {
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a {
+    margin: 16px 24px 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1em;
+    letter-spacing: .14em;
+    color: rgba(130, 130, 130, .57);
+    transition: color 140ms cubic-bezier(.33,0,.2,1);
+}
+
+.navbar a.active, .navbar a:hover {
+    color: rgb(130, 130, 130);
+}
+
+/* CONTENT */
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px;
+    max-width: 520px;
+    background: white;
+}
+
+.blog-content {
+    max-width: 520px;
+}
+
+h1 {
+    margin: 0;
+    text-transform: none;
+    font-family: "Raleway",sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.18em;
+    letter-spacing: 0;
+    color: #222;
+}
+
+h2 {
+    margin: 0;
+    text-transform: none;
+    font-family: "Raleway",sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.18em;
+    letter-spacing: 0;
+    color: rgba(28, 28, 28, .8);
+}
+
+h3 {
+    margin: .3em auto .3em;
+    text-transform: uppercase;
+    font-family: "Raleway",sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+    color: rgba(28, 28, 28, .8);
+}
+
+li, p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: .06em;
+    color: #555;
+    text-rendering: optimizeLegibility;
+}
+
