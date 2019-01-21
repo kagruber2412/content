@@ -4,7 +4,7 @@ body,
 html {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Arial',sans-serif;
     background: white;
 }
 
@@ -32,7 +32,7 @@ html {
 
 .navbar .navbar-logo a {
     text-transform: capitalize;
-    font-family: 'roboto-regular',sans-serif;
+    font-family: 'Arial',sans-serif;
     font-size: 20px;
 }
 
@@ -80,7 +80,7 @@ html {
 h1 {
     margin: 0;
     text-transform: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Arial',sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
@@ -92,7 +92,7 @@ h1 {
 h2 {
     margin: 0;
     text-transform: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Arial',sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -104,7 +104,7 @@ h2 {
 h3 {
     margin: .3em auto .3em;
     text-transform: uppercase;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Arial',sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
