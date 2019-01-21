@@ -19,6 +19,7 @@ html {
     padding: 10px 1.5vw 10px 1.5vw;
     max-width: 100%;
     font-size: 15px;
+    text-transform: none;
     background-color: white;
 }
 
