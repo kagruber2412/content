@@ -59,12 +59,12 @@ html {
     font-weight: bold;
     line-height: 2.18em;
     letter-spacing: .14em;
-    color: #848482;
+    color: rgba(130, 130, 130, .57);
     transition: color 140ms cubic-bezier(.33,0,.2,1);
 }
 
 .navbar a.active, .navbar a:hover {
-    color: rgb(130, 130, 130);
+    color: #848482;
 }
 
 /* CONTENT */
