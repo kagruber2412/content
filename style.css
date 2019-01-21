@@ -88,9 +88,9 @@ h1 {
     font-size: 18px;
     font-style: normal;
     font-weight: bold;
-    line-height: 2.18em;
-    letter-spacing: 0;
-    color: #848482;
+    line-height: 1.4em;
+    letter-spacing: .05em;
+    color: rgba(28, 28, 28, .8);
 }
 
 h2 {
