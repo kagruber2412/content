@@ -86,7 +86,7 @@ h1 {
     font-weight: bold;
     line-height: 2.18em;
     letter-spacing: 0;
-    color: #222;
+    color: #848482;
 }
 
 h2 {
@@ -95,7 +95,7 @@ h2 {
     font-family: 'Arial',sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: bold;
     line-height: 2.18em;
     letter-spacing: 0;
     color: rgba(28, 28, 28, .8);
@@ -107,7 +107,7 @@ h3 {
     font-family: 'Arial',sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: bold;
     line-height: 1.4em;
     letter-spacing: .05em;
     color: rgba(28, 28, 28, .8);
@@ -174,8 +174,8 @@ footer {
 footer a,
 .project a {
     border-width: 0 0 1px 0;
-    border-style: none none solid none;
-    border-color: #c0c0c0;
+    border-style: none none none none;
+    border-color: #848482;
     text-decoration: none;
     color: rgb(40, 40, 40);
 }
