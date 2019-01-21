@@ -190,6 +190,7 @@ class DownloadableContent extends HTMLElement {
 }
 
 
-window.customElements.define('publication-list', PublicationList);
+window.customElements.define('gallery-image', GalleryImage);
+window.customElements.define('featured-gallery', FeaturedGallery);
 window.customElements.define('navigation-bar', NavigationBar);
 window.customElements.define('downloadable-content', DownloadableContent);
