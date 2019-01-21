@@ -139,14 +139,14 @@ li, p {
   margin-right: auto;
 }
 
-#github-logo, #linkedin-logo {
+#github-logo, #linkedin-logo, #rg-logo {
   text-decoration: none;
   border: none;
   margin-bottom: 16px;
   filter: contrast(20%);
 }
 
-#github-logo:hover, #linkedin-logo:hover {
+#github-logo:hover, #linkedin-logo:hover, #rg-logo:hover {
   filter: contrast(100%);
 }
 
@@ -156,6 +156,11 @@ li, p {
 }
 
 #linkedin-logo img {
+  width: 40px;
+  height: auto;
+}
+
+#rg-logo img {
   width: 40px;
   height: auto;
 }
@@ -183,7 +188,7 @@ footer a,
     text-transform: none;
     text-decoration: none;
     font-family: 'Arial',sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: bold;
     line-height: 1.4em;
