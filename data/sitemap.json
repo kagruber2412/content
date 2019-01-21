@@ -1,0 +1,14 @@
+{
+  "pages": [
+    {
+      "title": "About",
+      "url": "index.html"
+    }, {
+      "title": "Research",
+      "url": "research.html"
+    }, {
+      "title": "Resume",
+      "url": "resume.pdf"
+    }
+  ]
+}
