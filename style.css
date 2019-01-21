@@ -103,7 +103,7 @@ h2 {
 
 h3 {
     margin: .3em auto .3em;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-family: 'Arial',sans-serif;
     font-size: 15px;
     font-style: normal;
