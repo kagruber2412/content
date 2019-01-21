@@ -18,7 +18,7 @@ html {
     height: auto;
     padding: 10px 1.5vw 10px 1.5vw;
     max-width: 100%;
-    font-size: 18px;
+    font-size: 24px;
     background-color: white;
 }
 
@@ -33,7 +33,7 @@ html {
 .navbar .navbar-logo a {
     text-transform: none;
     font-family: 'Arial',sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
     line-height: 2.18em;
@@ -54,7 +54,7 @@ html {
     text-align: center;
     text-decoration: none;
     text-transform: none;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: bold;
     line-height: 2.18em;
@@ -97,10 +97,10 @@ h2 {
     margin: 0;
     text-transform: none;
     font-family: 'Arial',sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: bold;
-    line-height: 2.18em;
+    line-height: 1.4em;
     letter-spacing: 0;
     color: rgba(28, 28, 28, .8);
 }
