@@ -180,6 +180,7 @@ footer a,
     border-width: 0 0 1px 0;
     border-style: none none none none;
     border-color: #848482;
+    text-transform: none;
     text-decoration: none;
     font-family: 'Arial',sans-serif;
     font-size: 18px;
