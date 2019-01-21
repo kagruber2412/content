@@ -32,7 +32,7 @@ html {
 
 .navbar .navbar-logo a {
     text-transform: capitalize;
-    font-family: "Open Sans",bold;
+    font-family: 'Open Sans',sans-serif;
     font-size: 20px;
 }
 
@@ -80,7 +80,7 @@ html {
 h1 {
     margin: 0;
     text-transform: none;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 300;
@@ -92,7 +92,7 @@ h1 {
 h2 {
     margin: 0;
     text-transform: none;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -104,7 +104,7 @@ h2 {
 h3 {
     margin: .3em auto .3em;
     text-transform: uppercase;
-    font-family: "Raleway",sans-serif;
+    font-family: 'Open Sans',sans-serif;
     font-size: 15px;
     font-style: normal;
     font-weight: 300;
