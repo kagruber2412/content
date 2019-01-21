@@ -123,3 +123,93 @@ li, p {
     text-rendering: optimizeLegibility;
 }
 
+/* LOGOS */
+
+#logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#github-logo, #linkedin-logo {
+  text-decoration: none;
+  border: none;
+  margin-bottom: 16px;
+  filter: contrast(20%);
+}
+
+#github-logo:hover, #linkedin-logo:hover {
+  filter: contrast(100%);
+}
+
+#github-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+#linkedin-logo img {
+  width: 80px;
+  height: auto;
+}
+
+footer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    max-width: 1280px;
+    text-align: center;
+    color: rgba(130, 130, 130, 0.57);
+}
+
+.content a,
+footer a,
+.project a {
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color: #c0c0c0;
+    text-decoration: none;
+    color: rgb(40, 40, 40);
+}
+
+.content a:hover,
+footer a:hover,
+.project a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .6);
+}
+
+.center {
+    text-align: center;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile {
+    width: 300px;
+    height: auto;
+    max-width: 100%;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.project h4 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
