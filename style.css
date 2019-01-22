@@ -187,18 +187,15 @@ footer {
 .content a,
 footer a,
 .project a {
-    border-width: 0 0 1px 0;
-    border-style: none none none none;
-    border-color: #848482;
     text-transform: none;
     text-decoration: none;
     font-family: 'Arial',sans-serif;
     font-size: 15px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: none;
     line-height: 1.4em;
     letter-spacing: .05em;
-    color: rgb(40, 40, 40);
+    color: #848482;
 }
 
 .content a:hover,
