@@ -85,7 +85,7 @@ li, p {
 
 /* NAVIGATION BAR */
 
-.topnav {
+.navbar .navbar-links {
   display: right;
   flex-direction: row;
   align-items: center;
@@ -98,7 +98,7 @@ li, p {
 
 /* Style the topnav links */
 
-.topnav a {
+.navbar a {
   float: left;
   display: block;
   color: #848482;
@@ -112,11 +112,12 @@ li, p {
   font-family: Arial;
   line-height: 1.04em;
   letter-spacing: 0;
+  transition: color 140ms cubic-bezier(.33,0,.2,1);
 }
 
 /* Change color on hover */
 
-.topnav a:hover {
+.navbar a.active, .navbar a:hover {
   background-color: #848482;
   color: black;
 }
