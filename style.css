@@ -13,7 +13,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
     height: auto;
     padding: 10px 1.5vw 10px 1.5vw;
     max-width: 100%;
