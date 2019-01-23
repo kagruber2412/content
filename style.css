@@ -1,77 +1,65 @@
 
-body,
-html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial',sans-serif;
-    background: white;
+* {
+  box-sizing: border-box;
 }
 
-/* NAVBAR */
-
-.navbar {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 10px 1.5vw 10px 1.5vw;
-    max-width: 100%;
-    font-size: 24px;
-    background-color: white;
-}
-
-.navbar .navbar-logo {
-    display: flex;
-    flex: auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.navbar .navbar-logo a {
-    float: left;
-    text-transform: none;
-    font-family: 'Arial',sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 2.18em;
-    letter-spacing: 0;
-}
-
-.navbar .navbar-links {
-    display: flex;
-    flex: auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar a {
-    margin: 16px 24px 16px 24px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 2.18em;
-    letter-spacing: .14em;
-    color: rgba(130, 130, 130, .57);
-    transition: color 140ms cubic-bezier(.33,0,.2,1);
-}
-
-.navbar a.active, .navbar a:hover {
-    color: rgb(130, 130, 130);
-}
-
-.navbar-right {
-  float: right;
+body, html {
+  font-family: Arial;
+  padding: 10px;
+  background: none;
 }
 
 /* CONTENT */
+/* Header/Blog Title */
+
+.header {
+  padding: 14px 16px;
+  text-align: left;
+  background: white;
+}
+
+.header h1 {
+  text-transform: none;
+  font-family: 'Arial';
+  font-size: 24px;
+  line-height: 1.04em;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: bold;
+  color: #848482;
+}
+
+.header h2 {
+  text-transform: none;
+  font-family: 'Arial';
+  font-size: 18px;
+  line-height: 1.04em;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+h3 {
+  text-transform: none;
+  font-family: 'Arial';
+  font-size: 15px;
+  line-height: 1.04em;
+  letter-spacing: 0;
+  font-style: normal;
+  font-weight: bold;
+  color: black;
+}
+
+li, p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2em;
+    letter-spacing: .06em;
+    color: #555;
+    text-rendering: optimizeLegibility;
+}
 
 .content {
     margin-right: auto;
@@ -85,42 +73,6 @@ html {
     max-width: 520px;
 }
 
-h1 {
-    margin: 0;
-    text-transform: none;
-    font-family: 'Arial',sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1.4em;
-    letter-spacing: .05em;
-    color: rgba(28, 28, 28, .8);
-}
-
-h2 {
-    margin: 0;
-    text-transform: none;
-    font-family: 'Arial',sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1.4em;
-    letter-spacing: 0;
-    color: rgba(28, 28, 28, .8);
-}
-
-h3 {
-    margin: .3em auto .3em;
-    text-transform: none;
-    font-family: 'Arial',sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: bold;
-    line-height: 1.4em;
-    letter-spacing: .05em;
-    color: rgba(28, 28, 28, .8);
-}
-
 li, p {
     font-size: 15px;
     font-style: normal;
@@ -129,6 +81,52 @@ li, p {
     letter-spacing: .06em;
     color: #555;
     text-rendering: optimizeLegibility;
+}
+
+/* NAVIGATION BAR */
+
+.topnav {
+  display: right;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  max-width: 100%;
+  overflow: hidden;
+  background-color: white;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #848482;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: none;
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Arial;
+  line-height: 1.04em;
+  letter-spacing: 0;
+}
+
+/* Change color on hover */
+
+.topnav a:hover {
+  background-color: #848482;
+  color: black;
+}
+
+.navbar-logo {
+    display: left;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 /* LOGOS */
