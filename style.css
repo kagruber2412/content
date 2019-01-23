@@ -150,8 +150,8 @@ li, p {
 }
 
 #github-logo img {
-  width: 45px;
-  height: 45px;
+  width: 50px;
+  height: 50px;
 }
 
 #linkedin-logo img {
@@ -165,14 +165,18 @@ li, p {
 }
 
 #scholar-logo img {
-  width: 41px;
-  height: 41px;
+  width: 45px;
+  height: 45px;
 }
 
 .ai-researchgate {
   padding: 5px;
   width: 45px;
   height: 45px;
+}
+
+.ai-google-scholar {
+  padding: 5px;
 }
 
 footer {
@@ -212,7 +216,6 @@ footer a:hover,
 
 i {
   display: inline-block;
-  margin-right: auto;
 }
 
 .center {
