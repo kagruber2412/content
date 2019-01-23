@@ -169,6 +169,12 @@ li, p {
   height: 41px;
 }
 
+.ai-researchgate {
+  padding: 5px;
+  width: 45px;
+  height: 45px;
+}
+
 footer {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
