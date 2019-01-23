@@ -118,7 +118,7 @@ li, p {
 /* Change color on hover */
 
 .navbar a.active, .navbar a:hover {
-  background-color: #848482;
+  background-color: none;
   color: black;
 }
 
