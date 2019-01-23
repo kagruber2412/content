@@ -18,18 +18,7 @@ body, html {
   background: white;
 }
 
-.header h1 {
-  text-transform: none;
-  font-family: 'Arial';
-  font-size: 24px;
-  line-height: 1.04em;
-  letter-spacing: 0;
-  font-style: normal;
-  font-weight: bold;
-  color: #848482;
-}
-
-.header h2 {
+h1 {
   text-transform: none;
   font-family: 'Arial';
   font-size: 18px;
@@ -40,7 +29,7 @@ body, html {
   color: black;
 }
 
-h3 {
+h2 {
   text-transform: none;
   font-family: 'Arial';
   font-size: 15px;
@@ -79,7 +68,7 @@ li, p {
     font-weight: 300;
     line-height: 2em;
     letter-spacing: .06em;
-    color: #555;
+    color: #848482;
     text-rendering: optimizeLegibility;
 }
 
@@ -96,7 +85,7 @@ li, p {
   background-color: white;
 }
 
-/* Style the topnav links */
+/* Style the topnav link(s) */
 
 .navbar a {
   float: left;
