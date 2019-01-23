@@ -1,4 +1,6 @@
 
+
+
 * {
   box-sizing: border-box;
 }
@@ -8,6 +10,13 @@ body, html {
   padding: 10px;
   background: none;
 }
+
+p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
 
 /* CONTENT */
 /* Header/Blog Title */
