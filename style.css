@@ -202,7 +202,7 @@ footer a,
 footer a:hover,
 .project a:hover {
     text-decoration: none;
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, .4);
 }
 
 i {
