@@ -9,7 +9,7 @@ html {
 
 /* NAVBAR */
 
-.navbar {
+.topnav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@ html {
     background-color: white;
 }
 
-.navbar .navbar-logo {
+.topnav .topnav-logo {
     display: flex;
     flex: auto;
     flex-direction: row;
@@ -29,7 +29,7 @@ html {
     justify-content: flex-start;
 }
 
-.navbar .navbar-logo a {
+.topnav .topnav-logo a {
     text-transform: none;
     font-family: 'Arial',sans-serif;
     font-size: 24px;
@@ -39,7 +39,7 @@ html {
     letter-spacing: 0;
 }
 
-.navbar .navbar-links {
+.topnav .topnav-links {
     display: flex;
     flex: auto;
     flex-direction: row;
@@ -48,7 +48,7 @@ html {
     justify-content: center;
 }
 
-.navbar a {
+.topnav a {
     margin: 16px 24px 16px 24px;
     text-align: center;
     text-decoration: none;
@@ -62,7 +62,7 @@ html {
     transition: color 140ms cubic-bezier(.33,0,.2,1);
 }
 
-.navbar a.active, .navbar a:hover {
+.topnav a.active, .topnav a:hover {
     color: rgb(130, 130, 130);
 }
 
