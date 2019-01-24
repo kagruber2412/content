@@ -1,6 +1,4 @@
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -58,67 +56,6 @@ li, p {
     padding: 16px;
     max-width: 520px;
     background: white;
-}
-
-.blog-content {
-    max-width: 520px;
-}
-
-li, p {
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 2em;
-    letter-spacing: .06em;
-    color: #848482;
-    text-rendering: optimizeLegibility;
-}
-
-/* NAVIGATION BAR */
-
-.navbar .navbar-links {
-  display: left;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  height: auto;
-  max-width: 100%;
-  overflow: hidden;
-  background-color: white;
-}
-
-/* Style the topnav link(s) */
-
-.navbar a {
-  float: left;
-  display: block;
-  color: #848482;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  text-transform: none;
-  font-weight: bold;
-  font-size: 18px;
-  font-style: normal;
-  font-family: Arial;
-  line-height: 1.04em;
-  letter-spacing: 0;
-  transition: color 140ms cubic-bezier(.33,0,.2,1);
-}
-
-/* Change color on hover */
-
-.navbar a.active, .navbar a:hover {
-  background-color: none;
-  color: black;
-}
-
-.navbar-logo {
-    display: left;
-    flex: auto;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
 }
 
 /* LOGOS */
