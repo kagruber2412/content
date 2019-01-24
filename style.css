@@ -40,14 +40,10 @@ h2 {
   color: black;
 }
 
-li, p {
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 2em;
-    letter-spacing: .06em;
-    color: #555;
-    text-rendering: optimizeLegibility;
+/* NAVBAR */
+
+.nav>li {
+  float: left;
 }
 
 .content {
