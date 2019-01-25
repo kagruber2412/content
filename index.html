@@ -13,9 +13,15 @@
 </head>
    
 <style>
-body {
-  padding: 20px;
-}
+$height-footer: 60px;
+  
+html {
+  min-height: 100%;
+  position: relative;
+  body {
+    margin-bottom: $height-footer;
+    padding: 20px;
+  }
   
 .layoutBody {
   background: white;
@@ -45,13 +51,19 @@ body {
 .container-fluid {
   padding: 20px;
 }
-  
-footer {
-  background-color: #808080;
-  color: white;
-  padding: 20px;
-  width: 100%;
- }
+   
+#footer {
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: $height-footer;
+    color: white;
+    background-color: #808080;
+    .footer-block {
+      margin: 20px 0;
+    }
+  }
+}
   
 .circle-icon {
     background: white;
@@ -119,9 +131,10 @@ Here comes some text.
   </div>
  </div>
 </div>  
-  
+
+<!--
 <footer class="container-fluid fixed-bottom text-center">
-  <!--
+
   <p style="text-align: right">
     <span style="color: #808080;">
       <em>
@@ -129,7 +142,7 @@ Here comes some text.
       </em>
     </span>
   </p>
- --> 
+ 
   <a href="mailto:gruber@ese.eur.nl">
     <i class="material-icons fa-stack-2x circle-icon" style="padding:5px;font-size:30px;color:rgb(0.03, 0.57, 0.82);">&#xe0e1;</i></a>
   <p style="float: right">
@@ -137,6 +150,15 @@ Here comes some text.
   </p>
   <p style="float: right">Content created with Bootstrap</p>
  </footer>
+--> 
+
+<!--[ footer ] -->
+  <div id="footer">
+    <div class="container">
+      <p class="footer-block">Place sticky footer content here.</p>
+    </div>
+  </div>
+  
 </body>
 
   <script src="js/script.js" charset="utf-8"></script>
