@@ -1,5 +1,3 @@
-
-
 /* LOGOS */
 
 #logos {
@@ -21,6 +19,7 @@
 
 #github-logo:hover, #linkedin-logo:hover, #rg-logo:hover, #scholar-logo:hover {
   filter: contrast(100%);
+  color: white;
 }
 
 #github-logo img {
