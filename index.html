@@ -49,6 +49,24 @@ img.animated-gif{
   width: 40px;
   height: 40px;
 }
+
+#logo {
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(100%); 
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(100%); 
+    -o-transition: .5s ease-in-out;
+}
+
+#logo:hover {
+    -webkit-filter: grayscale(0%);
+    -webkit-transition: .5s ease-in-out;
+    -moz-filter: grayscale(0%);
+    -moz-transition: .5s ease-in-out;
+    -o-filter: grayscale(0%);
+    -o-transition: .5s ease-in-out;
+} 
   
  /* On small screens, set height to 'auto' for sidenav and grid */
  @media screen and (max-width: 767px) {
@@ -71,7 +89,7 @@ img.animated-gif{
     </ul>
     <ul class="nav navbar-nav navbar-right">
     <span class="navbar-text">
-      <a href="https://github.com/kagruber2412" id="github-logo">
+      <a href="https://github.com/kagruber2412" id="logo">
          <i class="fa fa-github-square" style="padding:1px;font-size:35px;"></i></a>
       <a href="https://www.linkedin.com/in/kathrin-gruber/" id="linkedin-logo">
          <i class="fa fa-linkedin-square" style="padding:1px;font-size:35px;color:rgb(0.03, 0.57, 0.82);"></i></a>
