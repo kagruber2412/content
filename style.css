@@ -48,6 +48,18 @@ img.animated-gif{
   margin: 10px 15px;
 }
 
+i {
+  background-color:  #33383b;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
 footer{
   position: fixed;
 	bottom: 0;
