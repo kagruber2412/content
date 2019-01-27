@@ -2,7 +2,11 @@ html {
   min-height: 100%;
   position: relative;
 }
-   
+
+body{
+	font:14px/1.5 Arial, Helvetica, sans-serif;
+}
+
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -42,7 +46,17 @@ img.animated-gif{
   vertical-align: middle;
   padding: 5px;
 }
-  
+
+footer{
+  position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
  /* On small screens, set height to 'auto' for sidenav and grid */
  @media screen and (max-width: 767px) {
  .row.content {height:auto;} 
