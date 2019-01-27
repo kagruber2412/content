@@ -20,11 +20,8 @@ img.animated-gif{
 }
  
 /* FontAwesome icons */
-.fa {
- margin-top: 25px;
-}
 
- .fa a{
+ .fa {
    color: #777;
    display: inline-block;
    width: 35px;
