@@ -1,9 +1,11 @@
 <!DOCTYPE HTML>
 <html lang="en">
+  
 <head>
   <title>A Webpage with Bootstrap</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -11,69 +13,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
-   
-<style>
-  
-html {
-  min-height: 100%;
-  position: relative;
-  }
-   
-footer {
-    bottom: 0;
-    width: 100%;
-    position: absolute;
-    height: 80px;
-    color: white;
-    background-color: #808080;
-    padding: 10px;
-  }
-  
-.circle-icon {
-    background: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    vertical-align: middle;
-    padding: 5px;
-}
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-    margin-bottom: 0;
-    border-radius: 0;
-}
- 
-img.animated-gif{
-  width: 40px;
-  height: 40px;
-}
- 
-.fa {
-color: #777;
-}
-    
-.fa:hover {
-  color: white;
-}   
-  
-.ai {
-color: #777;
-}
-    
-.ai:hover {
-  color: white;
-}   
-  
- /* On small screens, set height to 'auto' for sidenav and grid */
- @media screen and (max-width: 767px) {
- .row.content {height:auto;} 
- }
-</style>
-  
+     
 <body>
+  
 <!-- navbar -->
+  
 <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html" style="font-weight:bold;font-size:18px;line-height:1.65em;">
@@ -86,63 +30,54 @@ color: #777;
       <li class="nav-item" style="font-weight:bold;font-size:18px;padding-top:5px"><a class="nav-link" href="teaching.html">Teaching</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
-    <span class="navbar-text">
-      <a href="https://github.com/kagruber2412">
-         <i class="fa fa-github-square" style="padding:1px;font-size:35px;"></i></a>
-      <a href="https://www.linkedin.com/in/kathrin-gruber/" id="logo">
-         <i class="fa fa-linkedin-square" style="padding:1px;font-size:35px;"></i></a>
-      <a href="https://www.researchgate.net/profile/Kathrin_Gruber" id="logo">
-         <i class="ai ai-researchgate-square ai-3x" style="padding:1px;font-size:35px;"></i></a>
-      <a href="https://scholar.google.com/citations?user=WtoAh70AAAAJ&hl=de" id="logo">
-         <i class="ai ai-google-scholar-square ai-3x" style="padding:1px;font-size:35px;"></i></a>
-      <a href="#">
-         <img class="animated-gif" src="https://media.giphy.com/media/12WdA5ngyLO90Y/giphy.gif" style="height:35px;width:35px;border-radius:25%;padding:1px;display:inline-block">
-      </a>
-    </span>
+      <span class="navbar-text">
+        <a href="https://github.com/kagruber2412"><i class="fa fa-github-square" style="padding:1px;font-size:35px;"></i></a>
+        <a href="https://www.linkedin.com/in/kathrin-gruber/" id="logo"><i class="fa fa-linkedin-square" style="padding:1px;font-size:35px;"></i></a>
+        <a href="https://www.researchgate.net/profile/Kathrin_Gruber" id="logo"><i class="ai ai-researchgate-square ai-3x" style="padding:1px;font-size:35px;"></i></a>
+        <a href="https://scholar.google.com/citations?user=WtoAh70AAAAJ&hl=de" id="logo"><i class="ai ai-google-scholar-square ai-3x" style="padding:1px;font-size:35px;"></i></a>
+        <a href="#"><img class="animated-gif" src="https://media.giphy.com/media/12WdA5ngyLO90Y/giphy.gif" style="height:35px;width:35px;border-radius:25%;padding:1px;display:inline-block"></a>
+      </span>
     </ul>
   </div>
 </nav>
 
-  <div class="container-fluid text-center">  
+<!-- content -->
   
-
-<div class="col-sm-1 text-left">
+  <div class="container-fluid text-center">  
+    <div class="col-sm-1 text-left">
  
 <!--
   <a href="mailto:gruber@ese.eur.nl">
     <i class="material-icons fa-stack-2x circle-icon" style="padding:5px;font-size:30px;color:rgb(0.03, 0.57, 0.82);">&#xe0e1;</i></a>
 -->  
-
-</div>
-
-  
-  <div class="col-sm-10 text-left"> 
+    </div>
     
-  <h2>Research</h2>
-    
-  <p>Econometrics/Marketing/Psychometrics</p>
-  <p>Applied Statistics/Computational Statistics/Algorithms</p>
-    
-  <hr>
-    
-  <h3>Journal Articles</h3>
-    
-    <p>Reutterer, T., March, N,. Hornik, K. & Gruber, K. (2016). A Data Mining Framework for Targeted Category Promotions. Journal of Business Economics, 1–22. (https://link.springer.com/article/10.1007/s11573-016-0823-7)</p>
-    <p>Andreas, M., Kuessel, L., Kastl, S.P., Wirth, S., Gruber, K., Rhomberg, F., Gomari-Grisar, F.A., Franz, M., Zeisler, H. & Gottsauner-Wolf, M. (2016). Bioimpedance cardiography in preg- nancy: A longitudinal cohort study on hemodynamic pattern and outcome. BMC pregnancy and childbirth, 16(1):128.
-    (https://doi.org/10.1186/s12884-016-0918-8)</p>
-    <p>Mair, P., Hofmann, E., Gruber, K., Hatzinger, R., Zeileis, A. & Hornik, K. (2015). Motivation, values, and work design as drivers of participation in the R open source project for statistical computing. Proceedings of the National Academy of Sciences (PNAS), 112 (48): 14788–14792. (http://www.pnas.org/content/112/48/14788.full)</p>
-    <p>Maca, S., Amirian, A., Prause, C., Gruber, K., Mejdoubi, L. & Barisani- Asenbauer, T. (2012). Understanding the impact of uveitis on health-related quality of life in adolescents. Acta ophthalmologica, 91 (3): 219–224. (http://onlinelibrary.wiley.com/doi/10.1111/aos.12016/full)</p>
-    <p>Maca, S., Schiesser, A.W., Sobala, A., Gruber, K., Pakesch, G., Prause, C. & Barisani-Asenbauer, T. (2010). Distress, depression and coping in HLA-B27- associated anterior uveitis with focus on gender differences. British Journal of Ophthalmology, 95 (9): 699–704. (http://dx.doi.org/10.1136/bjo.2009.174839)</p>
- 
-  <h2>Working papers</h2>
-  
-    <p>Papers submitted</p>
-    
-  <hr>
-  
-  <h2>Projects</h2>
-    
-    <p>Papers under development</p>
+    <div class="col-sm-10 text-left"> 
+      <h2>Research</h2>
+      <p>Econometrics/Marketing/Psychometrics</p>
+      <p>Applied Statistics/Computational Statistics/Algorithms</p>
+      
+      <hr>
+      
+      <h3>Journal Articles</h3>
+      
+      <p>Reutterer, T., March, N,. Hornik, K. & Gruber, K. (2016). A Data Mining Framework for Targeted Category Promotions. Journal of Business Economics, 1–22. (https://link.springer.com/article/10.1007/s11573-016-0823-7)</p>
+      <p>Andreas, M., Kuessel, L., Kastl, S.P., Wirth, S., Gruber, K., Rhomberg, F., Gomari-Grisar, F.A., Franz, M., Zeisler, H. & Gottsauner-Wolf, M. (2016). Bioimpedance cardiography in preg- nancy: A longitudinal cohort study on hemodynamic pattern and outcome. BMC pregnancy and childbirth, 16(1):128.(https://doi.org/10.1186/s12884-016-0918-8)</p>
+      <p>Mair, P., Hofmann, E., Gruber, K., Hatzinger, R., Zeileis, A. & Hornik, K. (2015). Motivation, values, and work design as drivers of participation in the R open source project for statistical computing. Proceedings of the National Academy of Sciences (PNAS), 112 (48): 14788–14792. (http://www.pnas.org/content/112/48/14788.full)</p>
+      <p>Maca, S., Amirian, A., Prause, C., Gruber, K., Mejdoubi, L. & Barisani- Asenbauer, T. (2012). Understanding the impact of uveitis on health-related quality of life in adolescents. Acta ophthalmologica, 91 (3): 219–224. (http://onlinelibrary.wiley.com/doi/10.1111/aos.12016/full)</p>
+      <p>Maca, S., Schiesser, A.W., Sobala, A., Gruber, K., Pakesch, G., Prause, C. & Barisani-Asenbauer, T. (2010). Distress, depression and coping in HLA-B27- associated anterior uveitis with focus on gender differences. British Journal of Ophthalmology, 95 (9): 699–704. (http://dx.doi.org/10.1136/bjo.2009.174839)</p>
+      
+      <hr>
+      
+      <h2>Working papers</h2>
+      
+      <p>Papers submitted</p>
+      
+      <hr>
+      
+      <h2>Projects</h2>
+      
+      <p>Papers under development</p>
   
  <!--
      <div id="logos">
@@ -151,23 +86,20 @@ color: #777;
 <p class="center">Visit my <a href="https://www.researchgate.net/profile/Kathrin_Gruber">researchgate</a> and <a >Google scholar</a> profile</p>
        </a>
 -->
-
+    </div>
   </div>
- </div>
 </div>  
 
+<!-- footer -->
+  
 <footer class="container-fluid fixed-bottom" style="background-color:#808080;color:white;padding-right:0"> 
   <p style="text-align: right">
     <span style="color: #808080;">
-      <em>
-        <a href="mailto:gruber@ese.eur.nl">gruber@ese.eur.nl</a>
-      </em>
+      <em><a href="mailto:gruber@ese.eur.nl">gruber@ese.eur.nl</a></em>
     </span>
   </p>
-  <p style="float: right">
-    Erasmus School of Economics - Department of Econometrics - Burg. Oudlaan 50, 3062 PA Rotterdam
-  </p>
- </footer>
+  <p style="float: right">Erasmus School of Economics - Department of Econometrics - Burg. Oudlaan 50, 3062 PA Rotterdam</p>
+</footer>
   
 </body>
 <script src="js/script.js" charset="utf-8"></script>
