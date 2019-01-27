@@ -21,7 +21,7 @@ img.animated-gif{
  
 /* FontAwesome icons */
 
- .fa {
+ .navbar-text .fa a{
    color: #777;
    display: inline-block;
    width: 35px;
