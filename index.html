@@ -13,46 +13,26 @@
 </head>
    
 <style>
-  
 html {
   min-height: 100%;
   position: relative;
-  }
-   
-footer {
-    bottom: 0;
-    width: 100%;
-    position: absolute;
-    height: 80px;
-    color: white;
-    background-color: #808080;
-    padding: 10px;
-  }
-  
-.circle-icon {
-    background: white;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 35px;
-    vertical-align: middle;
-    padding: 5px;
 }
-
+   
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
+  margin-bottom: 0;
+  border-radius: 0;
 }
  
+/* GIF */
 img.animated-gif{
   width: 40px;
   height: 40px;
 }
  
+/* FontAwesome icons */
 .fa {
-color: #777;
+  color: #777;
 }
     
 .fa:hover {
@@ -60,12 +40,34 @@ color: #777;
 }   
   
 .ai {
-color: #777;
+  color: #777;
 }
     
 .ai:hover {
   color: white;
 }   
+
+/* FOOTER */
+footer {
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  height: 80px;
+  color: white;
+  background-color: #808080;
+  padding: 10px;
+}
+  
+.circle-icon {
+  background: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  vertical-align: middle;
+  padding: 5px;
+}
   
  /* On small screens, set height to 'auto' for sidenav and grid */
  @media screen and (max-width: 767px) {
@@ -74,7 +76,9 @@ color: #777;
 </style>
   
 <body>
+  
 <!-- navbar -->
+  
 <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html" style="font-weight:bold;font-size:18px;line-height:1.65em;">
@@ -104,45 +108,42 @@ color: #777;
   </div>
 </nav>
 
-  <div class="container-fluid text-center">  
+<!-- Content -->
   
-
-<div class="col-sm-1 text-left">
+  <div class="container-fluid text-center">    
+    <div class="col-sm-1 text-left">
  
 <!--
   <a href="mailto:gruber@ese.eur.nl">
     <i class="material-icons fa-stack-2x circle-icon" style="padding:5px;font-size:30px;color:rgb(0.03, 0.57, 0.82);">&#xe0e1;</i></a>
 -->  
 
-</div>
-
-  
-  <div class="col-sm-10 text-left"> 
+    </div>  
+    <div class="col-sm-10 text-left"> 
+      
+      <h2>About me</h2>
+      <p>some text</p>
+      
+      <hr>
+      
+      <h3>Test</h3>
+      <p>Lorem ipsum...</p>
     
-  <h2>About me</h2>
-  <p> some text </p>
-  <hr>
-  <h3>Test</h3>
-  <p>Lorem ipsum...</p>
-    
+    </div>
   </div>
- </div>
 </div>  
 
-<footer class="container-fluid fixed-bottom" style="background-color:#808080;color:white;padding-right:0"> 
-  <p style="text-align: right">
-    <span style="color: #808080;">
-      <em>
-        <a href="mailto:gruber@ese.eur.nl">gruber@ese.eur.nl</a>
-      </em>
-    </span>
-  </p>
-  <p style="float: right">
-    Erasmus School of Economics - Department of Econometrics - Burg. Oudlaan 50, 3062 PA Rotterdam
-  </p>
- </footer>
+  <!-- footer -->
+  
+  <footer class="container-fluid fixed-bottom" style="background-color:#808080;color:white;padding-right:0"> 
+    <p style="text-align: right">
+      <span style="color: #808080;">
+        <em><a href="mailto:gruber@ese.eur.nl">gruber@ese.eur.nl</a></em>
+      </span>
+    </p>
+    <p style="float: right">Erasmus School of Economics - Department of Econometrics - Burg. Oudlaan 50, 3062 PA Rotterdam</p>
+  </footer>
   
 </body>
-
-  <script src="js/script.js" charset="utf-8"></script>
+<script src="js/script.js" charset="utf-8"></script>
 </html>
