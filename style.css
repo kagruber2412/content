@@ -38,10 +38,10 @@ img.animated-gif{
 }   
 
 .circle-icon {
-  background: white;
+  background: #33383b;
   width: 35px;
   height: 35px;
-  border-radius: 50%;
+  border-radius: 2px;
   text-align: center;
   line-height: 35px;
   vertical-align: middle;
