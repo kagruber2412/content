@@ -37,6 +37,19 @@ img.animated-gif{
   color: white;
 }   
 
+i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
 .circle-icon {
   background: #33383b;
   width: 35px;
