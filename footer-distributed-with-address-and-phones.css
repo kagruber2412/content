@@ -11,6 +11,7 @@
 
 	padding: 55px 50px;
 	margin-top: 25px;
+	margin-bottom:0;
 }
 
 .footer-distributed .footer-left,
@@ -41,7 +42,7 @@
 	border-radius: 50%;
 	text-align: center;
 	line-height: 42px;
-	margin: 10px 15px;
+	margin: 5px 10px;
 	vertical-align: middle;
 }
 
