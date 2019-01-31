@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font:14px/1.5 Arial, Helvetica, sans-serif;
+  font:14px Arial, Helvetica, sans-serif;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
@@ -12,7 +12,20 @@ body {
   margin-bottom: 0;
   border-radius: 0;
 }
- 
+
+.navbar .brand {
+
+/* default values
+padding: 10px 20px 10px;
+margin-left: -20px; 
+*/
+
+/* move Project name 10px left */
+   padding: 10px 10px 10px 10px;
+
+}
+
+
 /* GIF */
 img.animated-gif{
   width: 40px;
