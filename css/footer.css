@@ -93,6 +93,21 @@
 	margin-bottom: 20px;
 }
 
+
+.footer-distributed .footer-company-about p span{
+	display:block;
+	color:  #92999f;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.footer-distributed .footer-company-about p a{
+	color:  #337ab7;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+
 .footer-distributed .footer-icons{
 	margin-top: 25px;
 }
