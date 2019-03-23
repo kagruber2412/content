@@ -4,7 +4,11 @@ html {
 }
 
 body {
-  font:18px Arial, Helvetica, sans-serif;
+  font:16px Arial, Helvetica, sans-serif;
+}
+
+div.a {
+  font-size: 16px;
 }
 
 .container {
