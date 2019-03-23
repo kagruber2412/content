@@ -7,8 +7,12 @@ body {
   font:16px Arial, Helvetica, sans-serif;
 }
 
+.container {
+  font-size: 16px;
+}
+
 p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 h2 {
