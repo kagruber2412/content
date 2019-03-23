@@ -7,8 +7,12 @@ body {
   font:16px Arial, Helvetica, sans-serif;
 }
 
-div.a {
-  font-size: 16px;
+p {
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 2em;
 }
 
 .container {
