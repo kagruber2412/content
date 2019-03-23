@@ -4,27 +4,24 @@ html {
 }
 
 body {
-  font:16px Arial, Helvetica, sans-serif;
+  font:14px Arial, Helvetica, sans-serif;
 }
 
 .container {
-  font-size: 16px;
+  font-size: 14px;
+  padding: 0;
 }
 
 p {
   font-size: 1em;
 }
 
-h2 {
+h3 {
   font-size: 1.5em;
 }
 
 h2 {
   font-size: 2em;
-}
-
-.container {
-padding: 0;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
