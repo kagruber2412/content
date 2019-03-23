@@ -13,15 +13,15 @@ body {
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 16px;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 18px;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
