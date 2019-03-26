@@ -31,7 +31,6 @@
 
 .footer-distributed .footer-center{
 	width: 25%;
-	line-height: 20px;
 }
 
 .footer-distributed .footer-center i{
@@ -56,6 +55,7 @@
 	display: inline-block;
 	vertical-align: middle;
 	margin:0;
+	line-height: 20px;
 }
 
 .footer-distributed .footer-center p span{
