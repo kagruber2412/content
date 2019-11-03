@@ -1,2 +1,2 @@
-# content
-Just creating a webpage
+
+Just creating my personal webpage.
