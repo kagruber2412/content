@@ -5,7 +5,7 @@
         border-top-style: solid;
         border-top-color: #FFF;
 	box-sizing: border-box;
-	width: 100%;
+	width: 75%;
 	text-align: left;
 	font: bold 16px sans-serif;
 
@@ -34,7 +34,7 @@
 	width: 38px;
 	height: 38px;
 	border-radius: 50%;
-	text-align: right;
+	text-align: center;
 	line-height: 42px;
 	margin: 5px 10px;
 	vertical-align: middle;
