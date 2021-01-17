@@ -9,6 +9,15 @@ body {
 }
 
 .container {
+    height: 75%;
+    max-height: 85%;
+}
+.container .row,
+.container .col-md-4 {
+    height: 100%;
+}
+
+.container {
   font-size: 16px;
   padding: 0;
 }
